@@ -61,3 +61,17 @@ Bracket expressions are necessary in regular expressions, they specify the chara
 \b: The "word boundary" class is used to slot a position before or after a specific string in a word. 
 
 \w: This class represents word characters, it includes uppercase and lowercase letters, digits, and the underscore character. It's  equivalent to the character set [a-zA-Z0-9_] and is used for matching alphanumeric characters and underscores.
+
+## The OR Operator
+
+^(0[1-9]|1[012])[-/.](0[1-9]|[12][0-9]|3[01])[-/.][0-9]{4}$
+The first group, ^(0[1-9]|1[012]), demonstrates the use of the OR operator |. This allows for alternatives in regex pattern. In this specific case, it allows the user to select a month starting with either 0 or 1, followed by the specified sequence of numbers. This OR operator facilitates variation within the pattern, enabling flexibility in matching different variations of the input.
+
+## Flags
+
+i (insensitive casing): This flag allows the regex search to ignore character casing, enabling matches regardless of whether the characters are uppercase or lowercase.
+g (global): This flag specifies that the regex search should find all occurrences of the pattern within the input string.
+s (dot all): This flag enables the dot . character to match newline characters. Essentially treating any character as a valid match, including line breaks.
+m (multiline): This flag changes the behavior of anchors such as ^ and $ to match the start and end of each line within a multi-line input string. 
+
+
