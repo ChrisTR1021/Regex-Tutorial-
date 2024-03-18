@@ -16,3 +16,7 @@ In this tutorial, I'll delve into the regex necessary for matching an email addr
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+
+## Regex Components
+
+### Anchors
