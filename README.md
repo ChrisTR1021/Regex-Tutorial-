@@ -4,7 +4,7 @@ A regular expression, commonly referred to as regex, is comprised of a series of
 
 ## Summary
 
-In this tutorial, I'll delve into the regex necessary for matching an email address, which is /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/. This serves as a beneficial tool for validating email input across different implementations.
+In this tutorial, I'll delve into the regex necessary for matching an email address, which is `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`. This serves as a beneficial tool for validating email input across different implementations.
 
 ## Table of Contents
 
