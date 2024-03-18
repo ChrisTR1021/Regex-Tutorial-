@@ -23,7 +23,7 @@ In this tutorial, I'll delve into the regex necessary for matching an email addr
 
 The anchor marks the beginning and end of the regular expression. In the provided email matching code,
 
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 the anchors are identified by ^ at the beginning and $ at the end. Meaning the expression should start with 
 
 ^([a-z0-9_\.-]+)
