@@ -75,3 +75,14 @@ s (dot all): This flag enables the dot . character to match newline characters. 
 m (multiline): This flag changes the behavior of anchors such as ^ and $ to match the start and end of each line within a multi-line input string. 
 
 
+## Character Escapes
+
+In regular expressions, character escapes are used to interpret a special character as a literal character. For example, in the bracket expression [a-z0-9_\.-], the period . is treated as a literal rather than its given regex meaning. 
+
+In [\da-z\.-] and [a-z\.], the period \. is used as an escape to match a period character. This ensures that the regex interprets the period as a dot character.
+
+Character escapes are essential for specifying literal characters that would otherwise have special meanings in regular expressions, allowing for precise pattern matching in text.
+
+## Author
+
+My name is Chris, i hope this was informative and feel free to checkout my Github: [ChrisTR1021](https://github.com/ChrisTR1021/Regex-Tutorial-?tab=readme-ov-file#anchors)
